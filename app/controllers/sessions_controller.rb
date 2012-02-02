@@ -18,4 +18,9 @@ class SessionsController < ApplicationController
       format.json { render json: @user }
     end
   end
+  
+  def logout
+    reset_session
+    redirect_to '/login'
+  end
 end

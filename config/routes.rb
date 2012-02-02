@@ -8,6 +8,9 @@ Warecal::Application.routes.draw do
   resources :users
   
   resources :sessions
+  
+  match 'login' => "sessions#create", :as => 'login'
+  match 'logout' => "sessions#logout", :as => 'logout'
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

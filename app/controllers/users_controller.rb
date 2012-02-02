@@ -1,6 +1,13 @@
 class UsersController < ApplicationController
   # GET /users
   # GET /users.json
+  before_filter :check_auth, :only => [:index, :destroy]
+  
+  def check_auth
+    unless session[:user_id]
+      redirect_to new_session_path
+    end
+  end
   def index
     @users = User.all
 
