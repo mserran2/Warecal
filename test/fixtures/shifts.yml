@@ -1,0 +1,15 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  template_id: 1
+  date: 2012-02-01 21:54:12
+  start: 1
+  end: 1
+  canceled: false
+
+two:
+  template_id: 1
+  date: 2012-02-01 21:54:12
+  start: 1
+  end: 1
+  canceled: false

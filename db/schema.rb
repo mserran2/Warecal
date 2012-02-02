@@ -11,7 +11,37 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120202012211) do
+ActiveRecord::Schema.define(:version => 20120202031728) do
+
+  create_table "assigments", :force => true do |t|
+    t.integer  "user_id"
+    t.integer  "shift_id"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "assigments", ["shift_id"], :name => "index_assigments_on_shift_id"
+  add_index "assigments", ["user_id"], :name => "index_assigments_on_user_id"
+
+  create_table "shifts", :force => true do |t|
+    t.integer  "template_id"
+    t.datetime "date"
+    t.integer  "start"
+    t.integer  "end"
+    t.boolean  "canceled"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
+
+  add_index "shifts", ["template_id"], :name => "index_shifts_on_template_id"
+
+  create_table "templates", :force => true do |t|
+    t.string   "day"
+    t.integer  "start"
+    t.integer  "end"
+    t.datetime "created_at"
+    t.datetime "updated_at"
+  end
 
   create_table "users", :force => true do |t|
     t.string   "fname"

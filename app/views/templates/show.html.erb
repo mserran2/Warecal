@@ -1,0 +1,20 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <b>Day:</b>
+  <%= @template.day %>
+</p>
+
+<p>
+  <b>Start:</b>
+  <%= @template.start %>
+</p>
+
+<p>
+  <b>End:</b>
+  <%= @template.end %>
+</p>
+
+
+<%= link_to 'Edit', edit_template_path(@template) %> |
+<%= link_to 'Back', templates_path %>

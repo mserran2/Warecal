@@ -1,4 +1,8 @@
 Warecal::Application.routes.draw do
+  resources :shifts
+
+  resources :templates
+
   resources :users
 
   # The priority is based upon order of creation:

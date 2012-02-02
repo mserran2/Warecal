@@ -134,3 +134,18 @@ Served asset /users.css - 304 Not Modified (0ms)
 
 Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-01 20:30:15 -0500
 Served asset /users.js - 304 Not Modified (0ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+  [1m[35m (15.5ms)[0m  CREATE TABLE `templates` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `day` varchar(255), `start` int(11), `end` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (1.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120202025021')[0m
+Migrating to CreateShifts (20120202025412)
+  [1m[35m (13.5ms)[0m  CREATE TABLE `shifts` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `template_id` int(11), `date` datetime, `start` int(11), `end` int(11), `canceled` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (17.9ms)[0m  [1mCREATE INDEX `index_shifts_on_template_id` ON `shifts` (`template_id`)[0m
+  [1m[35m (1.2ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120202025412')
+Migrating to CreateAssigments (20120202031728)
+  [1m[36m (8.6ms)[0m  [1mCREATE TABLE `assigments` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `shift_id` int(11), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB[0m
+  [1m[35m (19.2ms)[0m  CREATE INDEX `index_assigments_on_user_id` ON `assigments` (`user_id`)
+  [1m[36m (16.4ms)[0m  [1mCREATE INDEX `index_assigments_on_shift_id` ON `assigments` (`shift_id`)[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120202031728')
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
