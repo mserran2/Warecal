@@ -1,9 +1,13 @@
 Warecal::Application.routes.draw do
+  resources :sub_requests
+
   resources :shifts
 
   resources :templates
 
   resources :users
+  
+  resources :sessions
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

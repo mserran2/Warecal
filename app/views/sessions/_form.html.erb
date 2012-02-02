@@ -1,0 +1,14 @@
+<%= form_tag("/sessions", :method => "post") do %>
+  <div class="field">
+    <%= label_tag(:u, "Username: ") %><br />
+    <%= text_field_tag(:username) %>
+  </div>
+  <div class="field">
+    <%= label_tag(:p, "Password:") %><br />
+    <%= text_field_tag(:password) %>
+  </div>
+  
+  <div class="actions">
+    <%= submit_tag("Login") %>
+  </div>
+<% end %>

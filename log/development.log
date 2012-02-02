@@ -149,3 +149,798 @@ Migrating to CreateAssigments (20120202031728)
   [1m[36m (16.4ms)[0m  [1mCREATE INDEX `index_assigments_on_shift_id` ON `assigments` (`shift_id`)[0m
   [1m[35m (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120202031728')
   [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[36m (0.7ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+Migrating to CreateShifts (20120202025412)
+Migrating to CreateAssigments (20120202031728)
+Migrating to CreateSubRequests (20120202153609)
+  [1m[36m (0.9ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+Migrating to CreateShifts (20120202025412)
+Migrating to CreateAssigments (20120202031728)
+Migrating to CreateSubRequests (20120202153609)
+  [1m[35m (26.4ms)[0m  CREATE TABLE `sub_requests` (`id` int(11) DEFAULT NULL auto_increment PRIMARY KEY, `user_id` int(11), `shift_id` int(11), `filled` tinyint(1), `created_at` datetime, `updated_at` datetime) ENGINE=InnoDB
+  [1m[36m (25.0ms)[0m  [1mCREATE INDEX `index_sub_requests_on_shift_id` ON `sub_requests` (`shift_id`)[0m
+  [1m[35m (15.0ms)[0m  CREATE INDEX `index_sub_requests_on_user_id` ON `sub_requests` (`user_id`)
+  [1m[36m (2.3ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120202153609')[0m
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.5ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+Migrating to CreateShifts (20120202025412)
+Migrating to CreateAssigments (20120202031728)
+Migrating to CreateSubRequests (20120202153609)
+Migrating to AddPasswordSaltToUsers (20120202162944)
+  [1m[35m (0.5ms)[0m  ALTER TABLE `users` ADD `password_salt` varchar(255) AFTER `password`
+Mysql2::Error: Unknown column 'password' in 'users': ALTER TABLE `users` ADD `password_salt` varchar(255) AFTER `password`
+  [1m[36m (0.3ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+Migrating to CreateShifts (20120202025412)
+Migrating to CreateAssigments (20120202031728)
+Migrating to CreateSubRequests (20120202153609)
+Migrating to AddPasswordSaltToUsers (20120202162944)
+  [1m[35m (31.4ms)[0m  ALTER TABLE `users` ADD `password_salt` varchar(255) AFTER `pass`
+  [1m[36m (0.6ms)[0m  [1mINSERT INTO `schema_migrations` (`version`) VALUES ('20120202162944')[0m
+Migrating to ChangePasswordToHash (20120202164103)
+  [1m[35m (1.0ms)[0m  SHOW COLUMNS FROM `users` LIKE 'pass'
+  [1m[36m (59.9ms)[0m  [1mALTER TABLE `users` CHANGE `pass` `password_hash` varchar(255) DEFAULT NULL[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120202164103')
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+Migrating to CreateShifts (20120202025412)
+Migrating to CreateAssigments (20120202031728)
+Migrating to CreateSubRequests (20120202153609)
+Migrating to AddPasswordSaltToUsers (20120202162944)
+Migrating to ChangePasswordToHash (20120202164103)
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+Migrating to CreateShifts (20120202025412)
+Migrating to CreateAssigments (20120202031728)
+Migrating to CreateSubRequests (20120202153609)
+Migrating to AddPasswordSaltToUsers (20120202162944)
+Migrating to ChangePasswordToHash (20120202164103)
+  [1m[35m (0.2ms)[0m  SELECT `schema_migrations`.`version` FROM `schema_migrations` 
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-02-02 12:22:35 -0500
+Served asset /rails.png - 200 OK (9ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 12:22:42 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (104.4ms)
+Rendered sessions/new.html.erb within layouts/application (134.4ms)
+Completed 500 Internal Server Error in 223ms
+
+ActionView::Template::Error (undefined method `user_session_path' for #<#<Class:0x00000100b61240>:0x00000100afc890>):
+    1: <%= form_for(@session) do |f| %>
+    2:   <% if @session.errors.any? %>
+    3:     <div id="error_explanation">
+    4:       <h2><%= pluralize(@session.errors.count, "error") %> prohibited this user from being saved:</h2>
+  app/views/sessions/_form.html.erb:1:in `_app_views_sessions__form_html_erb___1385659917492102104_2182454640'
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___3931456999468955244_2183482380'
+  app/controllers/sessions_controller.rb:16:in `new'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (7.1ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 12:23:47 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (82.0ms)
+Rendered sessions/new.html.erb within layouts/application (82.9ms)
+Completed 500 Internal Server Error in 89ms
+
+ActionView::Template::Error (undefined method `user_session_path' for #<#<Class:0x00000100ed2870>:0x00000100ebe730>):
+    1: <%= form_for(@session) do |f| %>
+    2:   <div class="field">
+    3:     <%= f.label :user %><br />
+    4:     <%= f.text_field :user %>
+  app/views/sessions/_form.html.erb:1:in `_app_views_sessions__form_html_erb___1385659917492102104_2155165300'
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___3931456999468955244_2183482380'
+  app/controllers/sessions_controller.rb:16:in `new'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.8ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 12:25:02 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (1.6ms)
+Rendered sessions/new.html.erb within layouts/application (2.4ms)
+Completed 500 Internal Server Error in 8ms
+
+ActionView::Template::Error (undefined method `label' for nil:NilClass):
+    1: <%= form_tag("/sessions/create", :method => "post") do |f| %>
+    2:   <div class="field">
+    3:     <%= f.label :user %><br />
+    4:     <%= f.text_field :user %>
+    5:   </div>
+    6:   <div class="field">
+  app/views/sessions/_form.html.erb:3:in `block in _app_views_sessions__form_html_erb___1385659917492102104_2182431200'
+  app/views/sessions/_form.html.erb:1:in `_app_views_sessions__form_html_erb___1385659917492102104_2182431200'
+  app/views/sessions/new.html.erb:3:in `_app_views_sessions_new_html_erb___3931456999468955244_2183482380'
+  app/controllers/sessions_controller.rb:16:in `new'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (2.3ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (6.5ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 12:28:02 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (1.6ms)
+Rendered sessions/new.html.erb within layouts/application (3.0ms)
+Compiled application.css  (4ms)  (pid 2355)
+Compiled shifts.css  (12ms)  (pid 2355)
+Compiled sub_requests.css  (1ms)  (pid 2355)
+Compiled templates.css  (1ms)  (pid 2355)
+Compiled application.js  (7ms)  (pid 2355)
+Compiled shifts.js  (174ms)  (pid 2355)
+Compiled sub_requests.js  (110ms)  (pid 2355)
+Compiled templates.js  (106ms)  (pid 2355)
+Completed 200 OK in 628ms (Views: 626.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /shifts.css - 200 OK (12ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /templates.css - 200 OK (7ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /sub_requests.js - 200 OK (2ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /sub_requests.css - 200 OK (5ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /shifts.js - 200 OK (2ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /templates.js - 200 OK (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /jquery.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /application.js - 200 OK (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:03 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (0.9ms)
+Rendered sessions/new.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 15ms (Views: 12.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:29 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions/create" for 127.0.0.1 at 2012-02-02 12:28:35 -0500
+
+ActionController::RoutingError (No route matches [POST] "/sessions/create"):
+  
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/routing_error.erb within rescues/layout (0.8ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (0.9ms)
+Rendered sessions/new.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 14ms (Views: 12.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 12:28:57 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/create" for 127.0.0.1 at 2012-02-02 12:29:01 -0500
+
+AbstractController::ActionNotFound (The action 'show' could not be found for SessionsController):
+  
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/sessions/" for 127.0.0.1 at 2012-02-02 12:29:08 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SessionsController):
+  
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/sessions/create" for 127.0.0.1 at 2012-02-02 12:29:12 -0500
+
+AbstractController::ActionNotFound (The action 'show' could not be found for SessionsController):
+  
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/sessions/" for 127.0.0.1 at 2012-02-02 12:29:16 -0500
+
+AbstractController::ActionNotFound (The action 'index' could not be found for SessionsController):
+  
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/unknown_action.erb within rescues/layout (0.5ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (1.9ms)
+Rendered sessions/new.html.erb within layouts/application (3.4ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /shifts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 12:30:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-02 12:30:29 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yfxP6JkbDpv9FmebOwPCJvMfheTWgQcBnrOC9hTUNpg=", "user"=>"ms", "password"=>"[FILTERED]", "commit"=>"Login"}
+Completed 500 Internal Server Error in 2ms
+
+NoMethodError (You have a nil object when you didn't expect it!
+You might have expected an instance of Array.
+The error occurred while evaluating nil.[]):
+  app/controllers/sessions_controller.rb:3:in `new'
+  app/controllers/sessions_controller.rb:3:in `create'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-02 12:33:13 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yfxP6JkbDpv9FmebOwPCJvMfheTWgQcBnrOC9hTUNpg=", "user"=>"ms", "password"=>"[FILTERED]", "commit"=>"Login"}
+Completed 500 Internal Server Error in 1ms
+
+ArgumentError (wrong number of arguments (2 for 1)):
+  app/controllers/sessions_controller.rb:3:in `new'
+  app/controllers/sessions_controller.rb:3:in `create'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.6ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-02 12:34:15 -0500
+
+SyntaxError (/Users/developer/Documents/Aptana Studio 3 Workspace/ware_cal/app/controllers/sessions_controller.rb:3: syntax error, unexpected ',', expecting tASSOC
+    @session = UserSession.new({params[:user],params[:password]})
+                                              ^
+/Users/developer/Documents/Aptana Studio 3 Workspace/ware_cal/app/controllers/sessions_controller.rb:3: syntax error, unexpected '}', expecting keyword_end
+    @session = UserSession.new({params[:user],params[:password]})
+                                                                ^):
+  
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.8ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-02 12:35:15 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yfxP6JkbDpv9FmebOwPCJvMfheTWgQcBnrOC9hTUNpg=", "user"=>"ms", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`user` = 'ms' LIMIT 1[0m
+Completed 500 Internal Server Error in 351ms
+
+NoMethodError (undefined method `id' for "ms":String):
+  app/controllers/sessions_controller.rb:5:in `create'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.6ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.3ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (5.5ms)
+  [1m[36m (3.9ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+Migrating to CreateUsers (20120202012211)
+Migrating to CreateTemplates (20120202025021)
+Migrating to CreateShifts (20120202025412)
+Migrating to CreateAssigments (20120202031728)
+Migrating to CreateSubRequests (20120202153609)
+Migrating to AddPasswordSaltToUsers (20120202162944)
+Migrating to ChangePasswordToHash (20120202164103)
+Migrating to ChangeUsertoUsername (20120202190931)
+  [1m[35m (1.6ms)[0m  SHOW COLUMNS FROM `users` LIKE 'user'
+  [1m[36m (41.2ms)[0m  [1mALTER TABLE `users` CHANGE `user` `username` varchar(255) DEFAULT NULL[0m
+  [1m[35m (1.4ms)[0m  INSERT INTO `schema_migrations` (`version`) VALUES ('20120202190931')
+  [1m[36m (0.2ms)[0m  [1mSELECT `schema_migrations`.`version` FROM `schema_migrations` [0m
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 14:13:50 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (1.7ms)
+Rendered sessions/new.html.erb within layouts/application (33.6ms)
+Completed 200 OK in 167ms (Views: 165.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /shifts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /sub_requests.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /templates.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /jquery.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /shifts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /sub_requests.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /templates.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /users.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 14:13:51 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-02 14:13:56 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yfxP6JkbDpv9FmebOwPCJvMfheTWgQcBnrOC9hTUNpg=", "username"=>"ms", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[36mUser Load (0.6ms)[0m  [1mSELECT `users`.* FROM `users` WHERE `users`.`username` = 'ms' LIMIT 1[0m
+Completed 500 Internal Server Error in 273ms
+
+NoMethodError (undefined method `name' for #<User:0x000001025b5bf0>):
+  app/controllers/sessions_controller.rb:6:in `create'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.8ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (6.9ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-02 14:14:12 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yfxP6JkbDpv9FmebOwPCJvMfheTWgQcBnrOC9hTUNpg=", "username"=>"ms", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'ms' LIMIT 1
+Redirected to http://localhost:3000/users/
+Completed 302 Found in 136ms
+
+
+Started GET "/users/" for 127.0.0.1 at 2012-02-02 14:14:12 -0500
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+Rendered users/index.html.erb within layouts/application (45.7ms)
+Completed 500 Internal Server Error in 55ms
+
+ActionView::Template::Error (undefined method `user' for #<User:0x000001017c6fa8>):
+    20:     <td><%= user.lname %></td>
+    21:     <td><%= user.email %></td>
+    22:     <td><%= user.phone %></td>
+    23:     <td><%= user.user %></td>
+    24:     <td><%= user.pass %></td>
+    25:     <td><%= user.opt_out %></td>
+    26:     <td><%= link_to 'Show', user %></td>
+  app/views/users/index.html.erb:23:in `block in _app_views_users_index_html_erb___2073115214848594516_2159801820'
+  app/views/users/index.html.erb:17:in `each'
+  app/views/users/index.html.erb:17:in `_app_views_users_index_html_erb___2073115214848594516_2159801820'
+  app/controllers/users_controller.rb:7:in `index'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (38.8ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.6ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (44.7ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2012-02-02 14:15:43 -0500
+  Processing by UsersController#index as HTML
+  [1m[35mUser Load (0.8ms)[0m  SELECT `users`.* FROM `users` 
+Rendered users/index.html.erb within layouts/application (16.3ms)
+Completed 500 Internal Server Error in 25ms
+
+ActionView::Template::Error (undefined method `pass' for #<User:0x000001025380b0>):
+    21:     <td><%= user.email %></td>
+    22:     <td><%= user.phone %></td>
+    23:     <td><%= user.username %></td>
+    24:     <td><%= user.pass %></td>
+    25:     <td><%= user.opt_out %></td>
+    26:     <td><%= link_to 'Show', user %></td>
+    27:     <td><%= link_to 'Edit', edit_user_path(user) %></td>
+  app/views/users/index.html.erb:24:in `block in _app_views_users_index_html_erb___2073115214848594516_2166905660'
+  app/views/users/index.html.erb:17:in `each'
+  app/views/users/index.html.erb:17:in `_app_views_users_index_html_erb___2073115214848594516_2166905660'
+  app/controllers/users_controller.rb:7:in `index'
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.7ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.2ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/template_error.erb within rescues/layout (5.7ms)
+
+
+Started GET "/users/" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+Rendered users/index.html.erb within layouts/application (55.4ms)
+Completed 200 OK in 69ms (Views: 65.8ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:33 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/sessions/new" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+  Processing by SessionsController#new as HTML
+Rendered sessions/_form.html.erb (1.0ms)
+Rendered sessions/new.html.erb within layouts/application (41.6ms)
+Completed 200 OK in 53ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:44 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started POST "/sessions" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+  Processing by SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"yfxP6JkbDpv9FmebOwPCJvMfheTWgQcBnrOC9hTUNpg=", "username"=>"ms", "password"=>"[FILTERED]", "commit"=>"Login"}
+  [1m[35mUser Load (0.4ms)[0m  SELECT `users`.* FROM `users` WHERE `users`.`username` = 'ms' LIMIT 1
+Redirected to http://localhost:3000/users/
+Completed 302 Found in 130ms
+
+
+Started GET "/users/" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+  Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.3ms)[0m  [1mSELECT `users`.* FROM `users` [0m
+Rendered users/index.html.erb within layouts/application (18.2ms)
+Completed 200 OK in 32ms (Views: 29.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-02 14:16:51 -0500
+Served asset /application.js - 304 Not Modified (0ms)

@@ -1,0 +1,27 @@
+<h1>Listing sub_requests</h1>
+
+<table>
+  <tr>
+    <th>User</th>
+    <th>Shift</th>
+    <th>Filled</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @sub_requests.each do |sub_request| %>
+  <tr>
+    <td><%= sub_request.user_id %></td>
+    <td><%= sub_request.shift_id %></td>
+    <td><%= sub_request.filled %></td>
+    <td><%= link_to 'Show', sub_request %></td>
+    <td><%= link_to 'Edit', edit_sub_request_path(sub_request) %></td>
+    <td><%= link_to 'Destroy', sub_request, confirm: 'Are you sure?', method: :delete %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Sub request', new_sub_request_path %>

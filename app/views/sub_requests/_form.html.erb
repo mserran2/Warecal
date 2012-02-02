@@ -1,0 +1,29 @@
+<%= form_for(@sub_request) do |f| %>
+  <% if @sub_request.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@sub_request.errors.count, "error") %> prohibited this sub_request from being saved:</h2>
+
+      <ul>
+      <% @sub_request.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :user_id %><br />
+    <%= f.text_field :user_id %>
+  </div>
+  <div class="field">
+    <%= f.label :shift_id %><br />
+    <%= f.number_field :shift_id %>
+  </div>
+  <div class="field">
+    <%= f.label :filled %><br />
+    <%= f.check_box :filled %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
