@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  fname: MyString
+  lname: MyString
+  email: MyString
+  phone: MyString
+  user: MyString
+  pass: MyString
+  opt_out: false
+
+two:
+  fname: MyString
+  lname: MyString
+  email: MyString
+  phone: MyString
+  user: MyString
+  pass: MyString
+  opt_out: false
