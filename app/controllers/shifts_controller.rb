@@ -1,3 +1,5 @@
+require 'chronic'
+
 class ShiftsController < ApplicationController
   # GET /shifts
   # GET /shifts.json
@@ -25,6 +27,13 @@ class ShiftsController < ApplicationController
   # GET /shifts/new.json
   def new
     @shift = Shift.new
+    templates = Template.all
+    @selections = [] 
+    templates.each do |t|
+      start = Chronic.parse(t.start).strftime("%I:%M%p")
+      finish = Chronic.parse(t.end).strftime("%I:%M%p")
+      @selections << ["#{t.day.capitalize} #{start} - #{finish}", t.id] 
+    end
 
     respond_to do |format|
       format.html # new.html.erb
@@ -35,6 +44,13 @@ class ShiftsController < ApplicationController
   # GET /shifts/1/edit
   def edit
     @shift = Shift.find(params[:id])
+    templates = Template.all
+    @selections = [] 
+    templates.each do |t|
+      start = Chronic.parse(t.start).strftime("%I:%M%p")
+      finish = Chronic.parse(t.end).strftime("%I:%M%p")
+      @selections << ["#{t.day.capitalize} #{start} - #{finish}", t.id] 
+    end
   end
 
   # POST /shifts

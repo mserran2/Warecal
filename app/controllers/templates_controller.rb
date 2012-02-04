@@ -1,6 +1,7 @@
 class TemplatesController < ApplicationController
   # GET /templates
   # GET /templates.json
+  
   def index
     @templates = Template.all
 
@@ -40,16 +41,23 @@ class TemplatesController < ApplicationController
   # POST /templates
   # POST /templates.json
   def create
-    @template = Template.new(params[:template])
+    puts params
+    params[:days].each do |key, value|
+      if value == "1"
+        @template = Template.new(:day => key, :start => params[:template][:start], :end => params[:template][:end])
+        @template.save
+      end
+    end
+    
 
     respond_to do |format|
-      if @template.save
+        #if @template.save
         format.html { redirect_to @template, notice: 'Template was successfully created.' }
-        format.json { render json: @template, status: :created, location: @template }
-      else
-        format.html { render action: "new" }
-        format.json { render json: @template.errors, status: :unprocessable_entity }
-      end
+        format.json { render json: @template, status: :created, location: templates_path }
+        #else
+        #format.html { render action: "new" }
+        #format.json { render json: @template.errors, status: :unprocessable_entity }
+        #end
     end
   end
 

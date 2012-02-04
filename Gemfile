@@ -7,6 +7,7 @@ gem 'rails', '3.1.3'
 
 gem 'mysql2'
 gem 'letmein'
+gem 'chronic'
 
 
 # Gems used only for assets and not required

@@ -11,7 +11,7 @@
 #
 # It's strongly recommended to check this file into your version control system.
 
-ActiveRecord::Schema.define(:version => 20120202190931) do
+ActiveRecord::Schema.define(:version => 20120204034814) do
 
   create_table "assigments", :force => true do |t|
     t.integer  "user_id"
@@ -25,7 +25,7 @@ ActiveRecord::Schema.define(:version => 20120202190931) do
 
   create_table "shifts", :force => true do |t|
     t.integer  "template_id"
-    t.datetime "date"
+    t.date     "date"
     t.integer  "start"
     t.integer  "end"
     t.boolean  "canceled"

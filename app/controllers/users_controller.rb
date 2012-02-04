@@ -8,6 +8,8 @@ class UsersController < ApplicationController
       redirect_to new_session_path
     end
   end
+  
+  
   def index
     @users = User.all
 

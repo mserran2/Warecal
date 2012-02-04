@@ -13,11 +13,11 @@
 
   <div class="field">
     <%= f.label :template_id %><br />
-    <%= f.number_field :template_id %>
+    <%= f.select :template_id, options_for_select(@selections) %>
   </div>
   <div class="field">
     <%= f.label :date %><br />
-    <%= f.datetime_select :date %>
+    <%= f.date_select :date %>
   </div>
   <div class="field">
     <%= f.label :start %><br />

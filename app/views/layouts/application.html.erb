@@ -1,14 +1,118 @@
-<!DOCTYPE html>
-<html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!-- Free web templates by http://www.templatesdock.com; released for free under a Creative Commons Attribution 3.0 License -->
+<html xmlns="http://www.w3.org/1999/xhtml">
 <head>
-  <title>Warecal</title>
-  <%= stylesheet_link_tag    "application" %>
-  <%= javascript_include_tag "application" %>
-  <%= csrf_meta_tags %>
+	  <title>Warecal</title>
+	  <%= stylesheet_link_tag    "application" %>
+	  <%= javascript_include_tag "application" %>
+	  <%= csrf_meta_tags %>
+
+	<script type="text/javascript">Cufon.replace('h1, h2, h3, h4, h5, h6, #nav', {hover:true});</script>	
+	<!--[if IE 6]><script src="/pngfix.js"></script><script>DD_belatedPNG.fix('#nav, #twitter img, #logo img, #laptop, #footer');</script><![endif]--> 		
+	<title>CompanyName</title>
 </head>
+
 <body>
 
-<%= yield %>
+<div id="main">
+	<% if flash[:warning] or flash[:notice] %>
+  <div id="notice" <% if flash[:warning] %>class="warning"<% end %>>
+    <%= flash[:warning] || flash[:notice] %>
+  </div>
+  <script type="text/javascript">
+    setTimeout("new Effect.Fade('notice');", 15000)
+  </script>
+<% end %>
+
+	<!-- NAVIGATION -->
+	<div id="nav">
+	
+		<ul>
+			<li class="current"><a href="#">Home</a></li>
+			<li><a href="#">About</a></li>
+			<li><a href="#">Products</a></li>
+			<li><a href="#">Portfolio</a></li>
+			<li><a href="#">Clients</a></li>
+			<li><a href="#">Contact</a></li>
+		</ul>
+
+		<!-- TWITTER -->
+		<p id="twitter"><a href="#" title="Follow us on Twitter"><%= image_tag("twitter.png") %></a></p>
+	
+	</div> <!-- /nav -->
+
+	<!-- INTRO -->
+	<div class="intro box">
+
+		<div id="laptop">
+
+			<!-- LOGO (TRANSPARENT PNG) -->
+			<p id="logo"><%= image_tag("logo.png") %></p>
+			
+			<h1 id="slogan">Hello, we are new media company, which delivers winning web solutions</h1>
+			
+			<p id="button">
+				<a href="#">Download demo version</a>
+				<a href="#">Purchase full version</a>
+			</p>
+			
+			<!-- REPLACE SCREENSHOT (DESIGN/SCREENSHOT.JPG), SIZE: 375x276 -->
+			<p id="screenshot"><a href="#"><%= image_tag("screenshot.jpg") %></a></p>
+		
+		</div> <!-- /laptop -->
+
+	</div> <!-- /intro -->
+
+	<!-- CONTENT -->
+	<div id="content" class="box">
+		
+		<div class="padding">
+			<%= yield %>
+		
+		</div> <!-- /padding -->
+		
+		<div class="gradient box">
+
+			<div class="col-left">
+
+				<h3>Contact us</h3>
+			
+				<p>
+					<strong>CompanyName Inc.</strong><br />
+					<a href="#">www.example.com</a><br />
+					<a href="#">example@example.com</a><br />
+					Address: Street 123, New York City<br />
+					Phone: (012) 345-6789
+				</p>
+
+			</div> <!-- /col-left -->
+			
+			<div class="col-right">
+			
+				<h3>News</h3>
+				
+				<ul>
+					<li>Aug. 27 &ndash; <a href="#">Lorem ipsum dolor sit amet este, consectetur adipiscin lit ma elementum</a></li>
+					<li>Aug. 26 &ndash; <a href="#">Marnare, est vitae dapibus blandit, libero a wuapuim lorem</a></li>
+					<li>Aug. 18 &ndash; <a href="#">Sed hendrerit hendrerit dignissim. Aenean adipiscing enim id turpis</a></li>
+					<li>Aug. 13 &ndash; <a href="#">Vivamus tincidunt, nisl quis malesuada posuere nisi lacus pellentesque</a></li>
+					<li>Aug. 11 &ndash; <a href="#">Quisque vitae mi in dolor porta lobortis in id purus</a></li>
+				</ul>
+			
+			</div> <!-- /col-right -->
+		
+		</div> <!-- /gradient -->
+
+	</div> <!-- /content -->
+
+	<div id="footer" class="box">
+		<p class="f-left">Copyright &copy;&nbsp;2010 <a href="#">MarkSerrano.ME</a></p>
+
+	</div> <!-- /footer -->			
+	
+</div> <!-- /main -->
+
+<script type="text/javascript"> Cufon.now(); </script>
 
 </body>
 </html>

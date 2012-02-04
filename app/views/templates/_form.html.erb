@@ -12,8 +12,10 @@
   <% end %>
 
   <div class="field">
-    <%= f.label :day %><br />
-    <%= f.text_field :day %>
+  	Monday: <%= check_box("days", "monday", { :class => 'eula_check' }, "1", "0") %><br />
+  	Tuesday: <%= check_box("days", "tuesday", { :class => 'eula_check' }, "1", "0") %><br />
+  	Wednesday: <%= check_box("days", "wednesday", { :class => 'eula_check' }, "1", "0") %><br />
+  	Thursday: <%= check_box("days", "thurday", { :class => 'eula_check' }, "1", "0") %><br />
   </div>
   <div class="field">
     <%= f.label :start %><br />

@@ -4,10 +4,10 @@ class SessionsController < ApplicationController
     @session.save!
     session[:user_id] = @session.user.id
     flash[:notice] = "Welcome back #{@session.user.fname}!"
-    redirect_to '/users/'
+    redirect_to users_path(@session.user.id)
 
   rescue LetMeIn::Error
-    flash.now[:error] = 'Invalid Credentials'
+    flash.now[:warning] = 'Invalid Credentials'
     render :action => :new
   end
   
