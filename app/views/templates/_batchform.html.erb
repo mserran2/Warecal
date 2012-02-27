@@ -1,0 +1,54 @@
+<script>
+$(function() {
+	$('.startTime').timepicker({ 	
+		'step': 15,
+		'minTime': '5:00am',
+		'maxTime': '11:30pm',
+		'show24Hours': false,
+		'onSelect': function() {
+			$('.endTime').timepicker({ 	
+				'step': 15,
+				'minTime': $('.startTime').val(),
+				'maxTime': '11:30pm',
+				'showDuration': true 
+			});
+			$('.endTime').removeAttr('disabled');
+		}
+	});
+});
+
+$(function() {
+		$( ".format" ).buttonset();
+	});
+</script>
+<%= form_for(@template) do |f| %>
+  <% if @template.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@template.errors.count, "error") %> prohibited this template from being saved:</h2>
+
+      <ul>
+      <% @template.errors.full_messages.each do |msg| %>
+        <li><%= msg %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="format">
+  	<% days = ["Monday", "Tuesday", "Wednesday", "Thurday", "Friday", "Saturday", "Sunday"]
+  	   days.each do |day| %>
+  		<%= check_box("days", day, {}, "1", "0") %><%= label("days",day) %>
+  	<% end %>
+  </div>
+  <div class="field">
+    <%= f.label :start %><br />
+    <%= f.text_field :start, {:class => "startTime"} %>
+  </div>
+  <div class="field">
+    <%= f.label :end %><br />
+    <%= f.text_field :end, {:class => "endTime", :disabled => "disabled"} %>
+  </div>
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>

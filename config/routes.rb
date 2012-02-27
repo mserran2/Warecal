@@ -1,4 +1,7 @@
 Warecal::Application.routes.draw do
+    
+  match 'templates/batch' => "templates#batch_new", :as => 'batch_template'
+  
   resources :sub_requests
 
   resources :shifts
@@ -9,8 +12,9 @@ Warecal::Application.routes.draw do
   
   resources :sessions
   
-  match 'login' => "sessions#create", :as => 'login'
+  match 'login' => "sessions#new", :as => 'login'
   match 'logout' => "sessions#logout", :as => 'logout'
+
 
   # The priority is based upon order of creation:
   # first created -> highest priority.

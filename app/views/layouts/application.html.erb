@@ -9,31 +9,25 @@
 
 	<script type="text/javascript">Cufon.replace('h1, h2, h3, h4, h5, h6, #nav', {hover:true});</script>	
 	<!--[if IE 6]><script src="/pngfix.js"></script><script>DD_belatedPNG.fix('#nav, #twitter img, #logo img, #laptop, #footer');</script><![endif]--> 		
-	<title>CompanyName</title>
+	<title>WareCal | Ware Pool Scheduling Solution</title>
+
 </head>
 
 <body>
 
 <div id="main">
-	<% if flash[:warning] or flash[:notice] %>
-  <div id="notice" <% if flash[:warning] %>class="warning"<% end %>>
-    <%= flash[:warning] || flash[:notice] %>
-  </div>
-  <script type="text/javascript">
-    setTimeout("new Effect.Fade('notice');", 15000)
-  </script>
-<% end %>
 
 	<!-- NAVIGATION -->
 	<div id="nav">
 	
 		<ul>
 			<li class="current"><a href="#">Home</a></li>
-			<li><a href="#">About</a></li>
-			<li><a href="#">Products</a></li>
-			<li><a href="#">Portfolio</a></li>
-			<li><a href="#">Clients</a></li>
-			<li><a href="#">Contact</a></li>
+			<li><%= link_to "Shifts", shifts_path  %></li>
+			<li><%= link_to "Templates", templates_path  %></li>
+			<li><%= link_to "Users", users_path  %></li>
+			<li><%= link_to_if session[:user_id].nil?, "Login", login_path  %></li>
+			<li><%= link_to_if session[:user_id], "Logout", logout_path  %></li>
+			
 		</ul>
 
 		<!-- TWITTER -->
@@ -41,12 +35,12 @@
 	
 	</div> <!-- /nav -->
 
-	<!-- INTRO -->
+	<!-- INTRO 
 	<div class="intro box">
 
 		<div id="laptop">
 
-			<!-- LOGO (TRANSPARENT PNG) -->
+			<!-- LOGO (TRANSPARENT PNG) 
 			<p id="logo"><%= image_tag("logo.png") %></p>
 			
 			<h1 id="slogan">Hello, we are new media company, which delivers winning web solutions</h1>
@@ -56,17 +50,24 @@
 				<a href="#">Purchase full version</a>
 			</p>
 			
-			<!-- REPLACE SCREENSHOT (DESIGN/SCREENSHOT.JPG), SIZE: 375x276 -->
+			<!-- REPLACE SCREENSHOT (DESIGN/SCREENSHOT.JPG), SIZE: 375x276 
 			<p id="screenshot"><a href="#"><%= image_tag("screenshot.jpg") %></a></p>
 		
-		</div> <!-- /laptop -->
+		</div> <!-- /laptop
 
 	</div> <!-- /intro -->
 
 	<!-- CONTENT -->
 	<div id="content" class="box">
-		
 		<div class="padding">
+			<% if flash[:warning] or flash[:notice] %>
+			  <div id="notice" <% if flash[:warning] %>class="warning"<% end %>>
+			    <%= flash[:warning] || flash[:notice] %>
+			  </div>
+			  <script type="text/javascript">
+			    setTimeout("new Effect.Fade('notice');", 15000)
+			  </script>
+			<% end %>
 			<%= yield %>
 		
 		</div> <!-- /padding -->
@@ -78,10 +79,10 @@
 				<h3>Contact us</h3>
 			
 				<p>
-					<strong>CompanyName Inc.</strong><br />
-					<a href="#">www.example.com</a><br />
-					<a href="#">example@example.com</a><br />
-					Address: Street 123, New York City<br />
+					<strong>Swarthmore Athletics</strong><br />
+					<a href="#">www.swarthmore.edu/athletics</a><br />
+					<a href="#">athletics@swarthmore.edu</a><br />
+					Address: 500 College Ave Swarthmore, PA<br />
 					Phone: (012) 345-6789
 				</p>
 

@@ -32,6 +32,15 @@ class TemplatesController < ApplicationController
       format.json { render json: @template }
     end
   end
+  
+  def batch_new
+    @template = Template.new
+
+    respond_to do |format|
+      format.html  {render 'batchnew.html.erb'}
+      format.json  {render json: @template }
+    end
+  end
 
   # GET /templates/1/edit
   def edit
@@ -41,23 +50,40 @@ class TemplatesController < ApplicationController
   # POST /templates
   # POST /templates.json
   def create
-    puts params
-    params[:days].each do |key, value|
-      if value == "1"
-        @template = Template.new(:day => key, :start => params[:template][:start], :end => params[:template][:end])
-        @template.save
+    if params[:days]
+      puts params
+      flash[:warning] = ""
+      params[:days].each do |key, value|
+        if value == "1"
+          s = params[:template][:start]
+          e = params[:template][:end]
+          if Template.where(:day => key, :start => s..e).empty? and Template.where(:day => key, :end => s..e).empty?
+            @template = Template.new(:day => key, :start => s, :end => e)
+            @template.save
+          else
+            flash[:warning] += "Failed to created shift on #{key} because it conflicts with another shift template. \n"
+          end
+        end
+  
+          flash[:notice] = "All shifts were created successfuly."
       end
-    end
-    
-
-    respond_to do |format|
-        #if @template.save
-        format.html { redirect_to @template, notice: 'Template was successfully created.' }
-        format.json { render json: @template, status: :created, location: templates_path }
-        #else
-        #format.html { render action: "new" }
-        #format.json { render json: @template.errors, status: :unprocessable_entity }
-        #end
+      
+  
+      respond_to do |format|
+          format.html { redirect_to templates_path }
+          format.json { render json: @template, status: :created, location: templates_path }
+      end
+    else
+      @template = Template.new(params[:template])
+      respond_to do |format|
+          if @template.save
+            format.html { redirect_to @template, notice: 'Template was successfully created.' }
+            format.json { render json: @template, status: :created, location: templates_path }
+          else
+            format.html { render action: "new" }
+            format.json { render json: @template.errors, status: :unprocessable_entity }
+          end
+      end
     end
   end
 

@@ -4,11 +4,11 @@ class SessionsController < ApplicationController
     @session.save!
     session[:user_id] = @session.user.id
     flash[:notice] = "Welcome back #{@session.user.fname}!"
-    redirect_to users_path(@session.user.id)
+    redirect_to user_path(@session.user)
 
-  rescue LetMeIn::Error
-    flash.now[:warning] = 'Invalid Credentials'
-    render :action => :new
+    rescue LetMeIn::Error
+      flash.now[:warning] = 'Invalid Credentials'
+      render :action => :new
   end
   
   def new
@@ -21,6 +21,6 @@ class SessionsController < ApplicationController
   
   def logout
     reset_session
-    redirect_to '/login'
+    redirect_to login_path
   end
 end
