@@ -15,6 +15,11 @@ class TemplatesController < ApplicationController
   # GET /templates/1.json
   def show
     @template = Template.find(params[:id])
+    puts @template[:start]
+    @template[:start] = Time.strptime("%04d" % @template[:start], "%H%M").strftime("at %I:%M%p")
+    puts "******************************************"
+    puts @template[:start]
+    @template[:end] = Time.strptime("%04d" % @template[:end], "%H%M").strftime("%I:%M%P")
 
     respond_to do |format|
       format.html # show.html.erb
@@ -45,6 +50,8 @@ class TemplatesController < ApplicationController
   # GET /templates/1/edit
   def edit
     @template = Template.find(params[:id])
+    @template[:start] = Time.strptime("%04d" % @template[:start], "%H%M").strftime("%I:%M%P")
+    @template[:end] = Time.strptime("%04d" % @template[:end], "%H%M").strftime("%I:%M%P")
   end
 
   # POST /templates
@@ -55,8 +62,9 @@ class TemplatesController < ApplicationController
       flash[:warning] = ""
       params[:days].each do |key, value|
         if value == "1"
-          s = params[:template][:start]
-          e = params[:template][:end]
+          s = Integer(Time.parse(params[:template][:start]).strftime("%k%M"))
+          e = Integer(Time.parse(params[:template][:end]).strftime("%k%M"))
+          
           if Template.where(:day => key, :start => s..e).empty? and Template.where(:day => key, :end => s..e).empty?
             @template = Template.new(:day => key, :start => s, :end => e)
             @template.save

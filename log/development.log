@@ -35698,3 +35698,2690 @@ Served asset /nav-separator.png - 304 Not Modified (0ms)
 
 Started GET "/assets/ui-bg_glass_100_e4f1fb_1x400.png" for 127.0.0.1 at 2012-02-27 00:25:25 -0500
 Served asset /ui-bg_glass_100_e4f1fb_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/batch" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+  Processing by TemplatesController#batch_new as HTML
+Rendered templates/_batchform.html.erb (112.7ms)
+Rendered templates/batchnew.html.erb within layouts/application (114.6ms)
+Completed 200 OK in 156ms (Views: 139.4ms | ActiveRecord: 14.3ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:38 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /gradient.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ui-bg_glass_80_d7ebf9_1x400.png" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /ui-bg_glass_80_d7ebf9_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ui-bg_glass_100_e4f1fb_1x400.png" for 127.0.0.1 at 2012-02-27 02:15:39 -0500
+Served asset /ui-bg_glass_100_e4f1fb_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/batch" for 127.0.0.1 at 2012-02-27 02:15:53 -0500
+  Processing by TemplatesController#batch_new as HTML
+Rendered templates/_batchform.html.erb (16.2ms)
+Rendered templates/batchnew.html.erb within layouts/application (17.6ms)
+Completed 200 OK in 44ms (Views: 41.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 02:15:54 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 02:15:55 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 02:15:55 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 02:15:55 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 02:15:55 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 02:15:55 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ui-bg_glass_80_d7ebf9_1x400.png" for 127.0.0.1 at 2012-02-27 02:15:55 -0500
+Served asset /ui-bg_glass_80_d7ebf9_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/batch" for 127.0.0.1 at 2012-02-27 14:08:21 -0500
+  Processing by TemplatesController#batch_new as HTML
+Rendered templates/_batchform.html.erb (50.5ms)
+Rendered templates/batchnew.html.erb within layouts/application (53.0ms)
+Completed 200 OK in 109ms (Views: 85.2ms | ActiveRecord: 21.4ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:22 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ui-bg_glass_80_d7ebf9_1x400.png" for 127.0.0.1 at 2012-02-27 14:08:23 -0500
+Served asset /ui-bg_glass_80_d7ebf9_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ui-bg_glass_100_e4f1fb_1x400.png" for 127.0.0.1 at 2012-02-27 14:08:47 -0500
+Served asset /ui-bg_glass_100_e4f1fb_1x400.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/ui-bg_glass_50_3baae3_1x400.png" for 127.0.0.1 at 2012-02-27 14:08:51 -0500
+Served asset /ui-bg_glass_50_3baae3_1x400.png - 304 Not Modified (0ms)
+
+
+Started POST "/templates" for 127.0.0.1 at 2012-02-27 14:08:53 -0500
+  Processing by TemplatesController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"pSujTsaltGkMi7ACj24sOkomjRw8mLuxzT2wvan7eX0=", "days"=>{"Monday"=>"0", "Tuesday"=>"0", "Wednesday"=>"1", "Thurday"=>"1", "Friday"=>"0", "Saturday"=>"0", "Sunday"=>"0"}, "template"=>{"start"=>"8:00pm", "end"=>"9:00pm"}, "commit"=>"Create Template"}
+  [1m[35m (12.5ms)[0m  SELECT COUNT(*) FROM `templates` WHERE `templates`.`day` = 'Wednesday' AND (`templates`.`start` BETWEEN 2000 AND 2100)
+  [1m[36m (0.4ms)[0m  [1mSELECT COUNT(*) FROM `templates` WHERE `templates`.`day` = 'Wednesday' AND (`templates`.`end` BETWEEN 2000 AND 2100)[0m
+  [1m[35m (0.6ms)[0m  BEGIN
+  [1m[36mSQL (8.7ms)[0m  [1mINSERT INTO `templates` (`created_at`, `day`, `end`, `start`, `updated_at`) VALUES ('2012-02-27 19:08:53', 'Wednesday', 2100, 2000, '2012-02-27 19:08:53')[0m
+  [1m[35m (1.1ms)[0m  COMMIT
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `templates` WHERE `templates`.`day` = 'Thurday' AND (`templates`.`start` BETWEEN 2000 AND 2100)[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `templates` WHERE `templates`.`day` = 'Thurday' AND (`templates`.`end` BETWEEN 2000 AND 2100)
+  [1m[36m (0.1ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (1.4ms)[0m  INSERT INTO `templates` (`created_at`, `day`, `end`, `start`, `updated_at`) VALUES ('2012-02-27 19:08:53', 'Thurday', 2100, 2000, '2012-02-27 19:08:53')
+  [1m[36m (0.2ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:3000/templates
+Completed 302 Found in 71ms
+
+
+Started GET "/templates" for 127.0.0.1 at 2012-02-27 14:08:53 -0500
+  Processing by TemplatesController#index as HTML
+  [1m[35mTemplate Load (1.2ms)[0m  SELECT `templates`.* FROM `templates` 
+Rendered templates/index.html.erb within layouts/application (27.6ms)
+Completed 200 OK in 63ms (Views: 58.8ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:53 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:53 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:53 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:08:54 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:08:55 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:08:55 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:08:55 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:08:55 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27/edit" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+  Processing by TemplatesController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTemplate Load (1.1ms)[0m  [1mSELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1[0m
+Rendered templates/_form.html.erb (12.8ms)
+Rendered templates/edit.html.erb within layouts/application (15.9ms)
+Completed 200 OK in 48ms (Views: 43.0ms | ActiveRecord: 2.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /application.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:00 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /shifts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:09:01 -0500
+Served asset /nav.png - 304 Not Modified (4ms)
+
+
+Started GET "/templates/27/edit" for 127.0.0.1 at 2012-02-27 14:29:10 -0500
+  Processing by TemplatesController#edit as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTemplate Load (0.6ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1
+Rendered templates/_form.html.erb (29.2ms)
+Rendered templates/edit.html.erb within layouts/application (35.1ms)
+Completed 200 OK in 142ms (Views: 96.2ms | ActiveRecord: 5.7ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:11 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:11 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:12 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:29:13 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:29:13 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:29:13 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:29:13 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:29:13 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:29:13 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:29:13 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates" for 127.0.0.1 at 2012-02-27 14:43:22 -0500
+  Processing by TemplatesController#index as HTML
+  [1m[36mTemplate Load (1.1ms)[0m  [1mSELECT `templates`.* FROM `templates` [0m
+Rendered templates/index.html.erb within layouts/application (37.3ms)
+Completed 200 OK in 162ms (Views: 156.4ms | ActiveRecord: 2.7ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:22 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:22 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:23 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:43:24 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:43:24 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:43:24 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:43:24 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:43:24 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:43:24 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/templates/13" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"13"}
+  [1m[35mTemplate Load (0.4ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 13 LIMIT 1
+Rendered templates/show.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 41ms (Views: 28.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:26 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:43:27 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/templates" for 127.0.0.1 at 2012-02-27 14:43:32 -0500
+  Processing by TemplatesController#index as HTML
+  [1m[36mTemplate Load (0.7ms)[0m  [1mSELECT `templates`.* FROM `templates` [0m
+Rendered templates/index.html.erb within layouts/application (79.1ms)
+Completed 200 OK in 117ms (Views: 110.9ms | ActiveRecord: 3.3ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:32 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:33 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /application.js - 304 Not Modified (10ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:43:34 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates" for 127.0.0.1 at 2012-02-27 14:43:57 -0500
+  Processing by TemplatesController#index as HTML
+  [1m[35mTemplate Load (0.6ms)[0m  SELECT `templates`.* FROM `templates` 
+Rendered templates/index.html.erb within layouts/application (30.6ms)
+Completed 200 OK in 59ms (Views: 54.8ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:57 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:57 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:57 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:57 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:57 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /font.font.js - 304 Not Modified (53ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:43:58 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:43:59 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:43:59 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:43:59 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:43:59 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:43:59 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:43:59 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 14:43:59 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTemplate Load (0.6ms)[0m  [1mSELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1[0m
+Rendered templates/show.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 38ms (Views: 26.5ms | ActiveRecord: 2.2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:00 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:44:01 -0500
+Served asset /nav-separator.png - 304 Not Modified (1ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTemplate Load (0.4ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1
+Rendered templates/show.html.erb within layouts/application (8.2ms)
+Completed 200 OK in 47ms (Views: 42.1ms | ActiveRecord: 2.8ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:12 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 14:46:13 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 14:46:14 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 14:46:14 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 14:46:14 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:22:42 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTemplate Load (3.2ms)[0m  [1mSELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1[0m
+Rendered templates/show.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 82ms (Views: 46.5ms | ActiveRecord: 15.1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:43 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:22:44 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTemplate Load (1.2ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1
+Rendered templates/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 40ms (Views: 26.7ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /jquery-button.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:15 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:25:16 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:25:48 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTemplate Load (0.4ms)[0m  [1mSELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1[0m
+Rendered templates/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 45ms (Views: 33.1ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:49 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:25:50 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:29:28 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTemplate Load (0.4ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1
+Rendered templates/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37ms (Views: 26.1ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:29 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:29:30 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTemplate Load (0.3ms)[0m  [1mSELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1[0m
+Rendered templates/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37ms (Views: 25.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:11 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:30:12 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTemplate Load (0.5ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1
+Rendered templates/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 89ms (Views: 25.4ms | ActiveRecord: 1.5ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:49 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:30:50 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:30:51 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:30:51 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:30:51 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:30:51 -0500
+Served asset /bg.jpg - 304 Not Modified (2ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:31:20 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTemplate Load (0.4ms)[0m  [1mSELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1[0m
+Rendered templates/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 38ms (Views: 25.5ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:21 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /shifts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:31:22 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:32:23 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTemplate Load (0.3ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1
+Rendered templates/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 36ms (Views: 25.0ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /jquery.timepicker.css - 200 OK (6ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /application.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:24 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:32:25 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[36mTemplate Load (0.4ms)[0m  [1mSELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1[0m
+Rendered templates/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 95ms (Views: 82.3ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:31 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /sub_requests.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /gradient.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:32:32 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:32:42 -0500
+
+SyntaxError (/Users/developer/Documents/Aptana Studio 3 Workspace/ware_cal/app/controllers/templates_controller.rb:19: unknown type of %string
+...e[:start], "%H%M").strftime(%I%M %p)
+...                               ^
+/Users/developer/Documents/Aptana Studio 3 Workspace/ware_cal/app/controllers/templates_controller.rb:19: syntax error, unexpected $end, expecting ')'
+...e[:start], "%H%M").strftime(%I%M %p)
+...                               ^):
+  
+
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_trace.erb (1.9ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.erb (1.4ms)
+Rendered /Users/developer/.rvm/gems/ruby-1.9.2-p290/gems/actionpack-3.1.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.erb within rescues/layout (26.3ms)
+
+
+Started GET "/templates/27" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+  Processing by TemplatesController#show as HTML
+  Parameters: {"id"=>"27"}
+  [1m[35mTemplate Load (0.8ms)[0m  SELECT `templates`.* FROM `templates` WHERE `templates`.`id` = 27 LIMIT 1
+Rendered templates/show.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 37ms (Views: 25.0ms | ActiveRecord: 1.9ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /application.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /jquery-ui-1.8.18.custom.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.timepicker.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /jquery.timepicker.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/main.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /main.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-button.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /jquery-button.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /shifts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/skin.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /skin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /sub_requests.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/templates.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /templates.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2012-02-27 16:34:19 -0500
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/cufon-yui.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /cufon-yui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/font.font.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /font.font.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui-1.8.18.custom.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /jquery-ui-1.8.18.custom.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.timepicker.min.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /jquery.timepicker.min.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/shifts.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /shifts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sub_requests.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /sub_requests.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/templates.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /templates.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /application.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/bg.jpg" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /bg.jpg - 304 Not Modified (0ms)
+
+
+Started GET "/assets/gradient.png" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /gradient.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/twitter.png" for 127.0.0.1 at 2012-02-27 16:34:20 -0500
+Served asset /twitter.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav.png" for 127.0.0.1 at 2012-02-27 16:34:21 -0500
+Served asset /nav.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav-separator.png" for 127.0.0.1 at 2012-02-27 16:34:21 -0500
+Served asset /nav-separator.png - 304 Not Modified (0ms)
