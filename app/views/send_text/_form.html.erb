@@ -1,5 +1,5 @@
 <%= form_tag('/send_text') do -%>
-	<div><%= phone_field_tag 'phone' %>
-	<div><%= text_area_tag 'message'%>
-  <div><%= submit_tag 'Send Text' %></div>
+	<div>Phone Number: <%= phone_field_tag 'phone' %></div>
+	<div>Message: <%= text_area_tag 'message' %></div>
+    <div><%= submit_tag 'Send Text' %></div>
 <% end -%>
