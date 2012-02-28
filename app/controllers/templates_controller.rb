@@ -15,11 +15,6 @@ class TemplatesController < ApplicationController
   # GET /templates/1.json
   def show
     @template = Template.find(params[:id])
-    puts @template[:start]
-    @template[:start] = Time.strptime("%04d" % @template[:start], "%H%M").strftime("at %I:%M%p")
-    puts "******************************************"
-    puts @template[:start]
-    @template[:end] = Time.strptime("%04d" % @template[:end], "%H%M").strftime("%I:%M%P")
 
     respond_to do |format|
       format.html # show.html.erb
@@ -58,7 +53,6 @@ class TemplatesController < ApplicationController
   # POST /templates.json
   def create
     if params[:days]
-      puts params
       flash[:warning] = ""
       params[:days].each do |key, value|
         if value == "1"
@@ -82,17 +76,26 @@ class TemplatesController < ApplicationController
           format.json { render json: @template, status: :created, location: templates_path }
       end
     else
-      @template = Template.new(params[:template])
-      respond_to do |format|
-          if @template.save
-            format.html { redirect_to @template, notice: 'Template was successfully created.' }
-            format.json { render json: @template, status: :created, location: templates_path }
-          else
-            format.html { render action: "new" }
-            format.json { render json: @template.errors, status: :unprocessable_entity }
-          end
-      end
-    end
+      #if (params[:template][:start] =~ /(1[012]|[1-9]):[0-5][0-9](\\s)?(?i)(am|pm)/)
+        params[:template][:start] = Integer(Time.parse(params[:template][:start]).strftime("%k%M"))
+        params[:template][:end] = Integer(Time.parse(params[:template][:end]).strftime("%k%M"))
+        @template = Template.new(params[:template])
+        respond_to do |format|
+            if @template.save
+              format.html { redirect_to @template, notice: 'Template was successfully created.' }
+              format.json { render json: @template, status: :created, location: templates_path }
+            else
+              format.html { render action: "new" }
+              format.json { render json: @template.errors, status: :unprocessable_entity }
+            end
+        end
+      #else
+      #  respond_to do |format|
+      #    format.html { render action: "new", error: 'Time must be in format: 12:00pm' }
+      #    format.json { render json: @template.errors, status: :unprocessable_entity }
+      #  end
+      #end
+  end
   end
 
   # PUT /templates/1

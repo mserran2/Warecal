@@ -2,6 +2,8 @@ Warecal::Application.routes.draw do
     
   match 'templates/batch' => "templates#batch_new", :as => 'batch_template'
   
+  resources :send_text, :only => [:index, :new, :create]
+  
   resources :sub_requests
 
   resources :shifts

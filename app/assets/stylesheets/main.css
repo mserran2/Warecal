@@ -34,7 +34,7 @@ LAYOUT
 #nav ul li.current a, #nav ul li a:hover {text-decoration:none;}
 #nav #twitter {position:absolute; bottom:-15px; right:35px; margin:0; z-index:999;}
 #content {text-align:justify;}
-#content .padding {padding:35px;}
+#content .padding {padding:35px; min-height:800px;}
 #footer {padding:35px 35px 0 35px; background:url("/assets/footer.png") 0 0 no-repeat;}
 #footer p {margin:0;}
 

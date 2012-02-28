@@ -7,12 +7,12 @@
 
 <p>
   <b>Start:</b>
-  <%= @template.start %>
+  <%= Time.strptime("%04d" % @template.start, "%H%M").strftime("%I:%M%p") %>
 </p>
 
 <p>
   <b>End:</b>
-  <%= @template.end %>
+  <%= Time.strptime("%04d" % @template.end, "%H%M").strftime("%I:%M%p") %>
 </p>
 
 
