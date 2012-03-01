@@ -7,19 +7,45 @@
 	  <%= javascript_include_tag "application" %>
 	  <%= csrf_meta_tags %>
 
-	<script type="text/javascript">Cufon.replace('h1, h2, h3, h4, h5, h6, #nav', {hover:true});</script>	
+	<script type="text/javascript">Cufon.replace('h1, h2, h3, h4, h5, h6, #nav', {hover:true});</script>
+			<script type="text/javascript">
+			window.addEventListener('DOMContentLoaded', function() {
+   				$("body").queryLoader2({onComplete:fadeInPage, percentage:true});
+			});
+			function fadeInPage() {
+				var temp = $("#controls_content").html();
+				if(temp != null) {
+					$("#controls").html(temp);
+					$("#controls").slideDown();
+				}
+				$('#side_menu').show('slide');
+				$('#header').show('clip');
+				$('#content_scroll').show('blind');
+				$("#side_menu ul li").mouseenter(function(){
+					$(this).children('a').effect('shake',{distance: 5, times:3 },100)
+			    })
+			}
+			/*
+			$(function() {
+				var temp = $("#controls_content").html();
+				if(temp != null) {
+					$("#controls").html(temp);
+					$("#controls").slideDown();
+				}
+				$('#side_menu').show('slide')
+			}); */
+		</script>
+	
 	<!--[if IE 6]><script src="/pngfix.js"></script><script>DD_belatedPNG.fix('#nav, #twitter img, #logo img, #laptop, #footer');</script><![endif]--> 		
 
 </head>
 
 <body>
 
-<div id="main">
-
-	<!-- NAVIGATION -->
-	<div id="nav">
-	
-		<ul>
+<div id="header"></div>
+<div id="portal">
+<div id="side_menu">
+			<ul>
 			<li class="current"><a href="#">Home</a></li>
 			<li><%= link_to "Shifts", shifts_path  %></li>
 			<li><%= link_to "Templates", templates_path  %></li>
@@ -28,9 +54,36 @@
 			<li><%= link_to_if session[:user_id], "Logout", logout_path  %></li>
 			
 		</ul>
+</div>
 
-		<!-- TWITTER -->
-		<p id="twitter"><a href="#" title="Follow us on Twitter"><%= image_tag("twitter.png") %></a></p>
+<div id="content_portal">
+	<div id="controls"></div>
+	<div id="content_absolute">
+		<div id="content_scroll">
+		<%= yield %>
+		</div>
+	</div>
+</div> <!-- /padding -->
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="main">
+
+	<!-- NAVIGATION -->
+	<div id="nav">
+	
+
+
 	
 	</div> <!-- /nav -->
 
@@ -58,18 +111,7 @@
 
 	<!-- CONTENT -->
 	<div id="content" class="box">
-		<div class="padding">
-			<% if flash[:warning] or flash[:notice] %>
-			  <div id="notice" <% if flash[:warning] %>class="warning"<% end %>>
-			    <%= flash[:warning] || flash[:notice] %>
-			  </div>
-			  <script type="text/javascript">
-			    setTimeout("new Effect.Fade('notice');", 15000)
-			  </script>
-			<% end %>
-			<%= yield %>
 		
-		</div> <!-- /padding -->
 		<div style="clear:both;"></div>
 		<div class="gradient box">
 
@@ -102,7 +144,7 @@
 	</div> <!-- /footer -->			
 	
 </div> <!-- /main -->
-
+</div>
 <script type="text/javascript"> Cufon.now(); </script>
 
 </body>

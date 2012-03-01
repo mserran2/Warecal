@@ -1,33 +1,22 @@
 <h1>Listing users</h1>
-
-<table>
-  <tr>
-    <th>Fname</th>
-    <th>Lname</th>
-    <th>Email</th>
-    <th>Phone</th>
-    <th>User</th>
-    <th>Opt out</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
-<% @users.each do |user| %>
-  <tr>
-    <td><%= user.fname %></td>
-    <td><%= user.lname %></td>
-    <td><%= user.email %></td>
-    <td><%= user.phone %></td>
-    <td><%= user.username %></td>
-    <td><%= user.opt_out %></td>
-    <td><%= link_to 'Show', user %></td>
-    <td><%= link_to 'Edit', edit_user_path(user) %></td>
-    <td><%= link_to 'Destroy', user, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
-
+<script>
+	$(function() {
+		$( ".draggable" ).draggable({cancel:"div.card_info", stack: ".draggable"});
+	});
+	</script>
 <br />
-
+	<% @users.each do |user| %>
+	<div class="life_guard draggable">
+		<div class="card_username"><%= user.username %></div>
+		<div class="card_image"></div>
+		<div class="card_info">
+		<div class="card_name"><%= "#{user.fname} #{user.lname}" %></div>
+	    E: <%= user.email %><br />
+	    <% if user.phone != "" %>T: <%= number_to_phone(user.phone, :area_code => true) %><br /><% end %>
+	    <%= #user.opt_out 
+	    %><br />
+	    </div>
+	</div>
+	<% end %>
+<div style="clear:both;"></div>
 <%= link_to 'New User', new_user_path %>

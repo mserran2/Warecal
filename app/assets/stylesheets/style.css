@@ -1,0 +1,157 @@
+html {
+	height: 100%;
+	margin:0;
+}
+body { 	margin:0;
+		-moz-box-shadow:    inset 0 0 10px #000000;
+   		-webkit-box-shadow: inset 0 0 10px #000000;
+   		box-shadow:         inset 0 0 10px #000000;
+   		background-image:url('/assets/page_bground.png');
+   		height:100%; }
+
+#header { 	height:48px;
+			width:100%;
+			background-image:url('/assets/header_bground.png');
+			-moz-box-shadow:    0 -3px 12px 6px #000000;
+			-webkit-box-shadow: 0 -3px 12px 6px #000000;
+			box-shadow:         0 -3px 12px 6px #000000;
+			display:none; }
+			
+#portal { 	position: absolute;
+			top: 49px;
+			bottom: 0;
+			left: 0;
+			right: 0;
+			min-width: 1024px;
+			overflow: hidden; }
+			
+#side_menu { height:100%;
+			width:72px;
+			background-image:url('side_bground.png');
+			display:block;
+			float:left;
+			display:none; }
+#side_menu ul {margin:0; padding:0;}
+
+#side_menu li { 	width:70px;
+					height:50px;
+					padding-top:20px;
+					display: block;
+					border:1px solid #000000;
+					list-style:none;
+					margin:0;
+					text-align:center }
+					
+#side_menu li a { 	text-decoration:none;
+					color:#000000;
+					width:70px;
+					height:50px;
+					display: block; }
+			
+			
+#controls { background-image:url('/assets/controls_bground.png');
+			width:100%;
+			height:35px;
+			display:none; }
+			
+#controls_content {display:none;}
+			
+#content_portal { 	position: absolute;
+					left: 73px;
+					overflow:hidden;
+					right: 20%;
+					top: 0;
+					bottom: 0;
+					background-color:#ffffff;
+					-moz-box-shadow:    3px 0 12px -2px #000000;
+					-webkit-box-shadow: 3px 0 12px -2px #000000;
+					box-shadow:         3px 0 12px -2px #000000;}
+#content_absolute { position: absolute;
+					left: 0;
+					overflow:hidden;
+					right: 0;
+					top: 36px;
+					bottom: 0;}
+
+#content_scroll {   width:100%;
+					height:100%;
+					overflow:scroll;
+					display:none; }
+
+
+/****************************************/
+.life_guard { height:106px;
+				width:193px;
+				float:left;
+				padding:40px 0 0 20px;
+				margin:0 10px 10px 0;
+				cursor:pointer;
+				background-image:url('/assets/contactcard.png')}
+				
+.card_username {float:right;
+				margin:-40px 10px 0 0;}
+				
+.card_image { 	width:58px;
+				height:58px;
+				background-image:url('/assets/card_image.png');
+				float:left;
+				margin-right:20px;}
+				
+.card_info { 	width:100px;
+				float:left;
+				font-size: 10px;
+				cursor:text; }
+
+.card_name { 	font-size: 14px;
+				font-weight:600; }
+				
+.plate_title { 	padding:10px 0 10px 25px; }
+
+#accordion { 	width: 600px; 
+				float:left;
+				margin-right:20px; }
+
+#drop_zone { 	width: 200px; 
+				float:left;
+				border: 1px solid #000; }
+				
+#delete_zone { 	width: 150px;
+				height:150px;
+				background-image:url('/assets/red-hazard-stripes.jpeg');
+				margin:10px 0 10px 20px; }
+				
+#edit_zone  { 	width:150px;
+				height:150px;
+				background-image:url('/assets/yellow-hazard-stripes.jpeg');
+				margin:10px 0 10px 20px;}
+				
+/****** ACTION BUTTONS ****** */
+.action_button {text-shadow: rgba(0, 0, 0, 0.33) 0px -1px 1px;
+				background-image: -webkit-gradient(linear, 50% 0%, 50% 100%, color-stop(0%, #5D8DDB), color-stop(100%, #3969B7));
+				background-image: -webkit-linear-gradient(#5D8DDB, #3969B7);
+				background-image: -moz-linear-gradient(#5D8DDB, #3969B7);
+				background-image: -o-linear-gradient(#5D8DDB, #3969B7);
+				background-image: -ms-linear-gradient(#5D8DDB, #3969B7);
+				background-image: linear-gradient(#5D8DDB,#3969B7);
+				background-color: #3969B7;
+				border: 1px solid #2F4788;
+				text-decoration:none;
+				border: 1px solid #111;
+				-moz-border-radius: 3px;
+				-webkit-border-radius: 3px;
+				-o-border-radius: 3px;
+				-ms-border-radius: 3px;
+				-khtml-border-radius: 3px;
+				border-radius: 3px;
+				-moz-box-shadow: rgba(255,255,255,0.15) 0 1px 0 inset,rgba(255,255,255,0.08) 1px 0px 0 inset,0 1px 0 rgba(255,255,255,0.08);
+				-webkit-box-shadow: rgba(255,255,255,0.15) 0 1px 0 inset,rgba(255,255,255,0.08) 1px 0px 0 inset,0 1px 0 rgba(255,255,255,0.08);
+				-o-box-shadow: rgba(255,255,255,0.15) 0 1px 0 inset,rgba(255,255,255,0.08) 1px 0px 0 inset,0 1px 0 rgba(255,255,255,0.08);
+				box-shadow: rgba(255,255,255,0.15) 0 1px 0 inset,rgba(255,255,255,0.08) 1px 0px 0 inset,0 1px 0 rgba(255,255,255,0.08);
+				position: relative;
+				padding: 4px 10px 5px 10px;
+				color: white;
+				font-size: 13px;
+				font-weight: bold;
+				text-shadow: 0px 1px 1px #111;
+				text-align: center;
+				cursor: pointer; }

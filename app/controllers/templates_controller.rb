@@ -3,7 +3,18 @@ class TemplatesController < ApplicationController
   # GET /templates.json
   
   def index
-    @templates = Template.all
+    @templates = Template.order(:day,:start)
+    @temp = { :Monday => [],
+              :Tuesday => [],
+              :Wednesday => [],
+              :Thursday => [],
+              :Friday => [],
+              :Saturday => [],
+              :Sunday => []}
+   @templates.each do |item|
+     @temp[item.day.to_sym] << item
+   end
+              
 
     respond_to do |format|
       format.html # index.html.erb

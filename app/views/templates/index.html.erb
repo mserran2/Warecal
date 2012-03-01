@@ -1,28 +1,75 @@
-<h1>Listing templates</h1>
 
-<table>
-  <tr>
-    <th>Day</th>
-    <th>Start</th>
-    <th>End</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+<script>
+	$(function() {
+		$( "#accordion" ).accordion();
+		$(".plate_row").draggable({ revert: "invalid",appendTo: "body",helper:"clone" });
+		$("#delete_zone").droppable({
+			activeClass: "ui-state-hover",
+			hoverClass: "ui-state-active",
+			drop: function(event, ui) { $(ui.draggable).find('a').trigger('click') }
+		});
+		//$("#options a").button();
+	});
+</script>
 
-<% @templates.each do |template| %>
-  <tr>
-    <td><%= template.day %></td>
-    <td><%= Time.strptime("%04d" % template.start, "%H%M").strftime("%I:%M%P ") %></td>
-    <td><%= Time.strptime("%04d" % template.end, "%H%M").strftime("%I:%M%P ") %></td>
-    <td><%= link_to 'Show', template %></td>
-    <td><%= link_to 'Edit', edit_template_path(template) %></td>
-    <td><%= link_to 'Destroy', template, confirm: 'Are you sure?', method: :delete %></td>
-  </tr>
-<% end %>
-</table>
+<div id="accordion">
+	<% @temp.keys.each do |key| %>
+	  <h3 class="plate_title"><%= key.to_s %></h3>
+	  <div id="<%= key.to_s %>">
+	  	<% if @temp[key].empty? %>
+	  	  No Templates where found for this day.
+	  	<% else%>
+	  	  <% @temp[key].each do |plate| %>
+	  	    <div class="plate_row">
+	  	    	<span><%= Time.strptime("%04d" % plate.start, "%H%M").strftime("%I:%M%P ") %></span> -
+    			<span><%= Time.strptime("%04d" % plate.end, "%H%M").strftime("%I:%M%P ") %></span>
+    			<span style="display:none;"><%= link_to 'Destroy', plate, confirm: 'Are you sure?', method: :delete %></span>
+	  	    </div>
+	  	  <% end%>
+	  	<% end%>
+	  </div>
+	<% end %>
+	<h3 class="plate_title">All Templates</h3>
+	<div>
+	<table>
+	  <tr>
+	    <th>Day</th>
+	    <th>Start</th>
+	    <th>End</th>
+	    <th></th>
+	    <th></th>
+	    <th></th>
+	  </tr>
+	
+	<% @templates.each do |template| %>
+	  <tr>
+	    <td><%= template.day %></td>
+	    <td><%= Time.strptime("%04d" % template.start, "%H%M").strftime("%I:%M%P ") %></td>
+	    <td><%= Time.strptime("%04d" % template.end, "%H%M").strftime("%I:%M%P ") %></td>
+	    <td><%= link_to 'Show', template %></td>
+	    <td><%= link_to 'Edit', edit_template_path(template) %></td>
+	    <td><%= link_to 'Destroy', template, confirm: 'Are you sure?', method: :delete %></td>
+	  </tr>
+	<% end %>
+	</table>
+	</div>
+</div>
 
-<br />
+<div id="drop_zone">
+	<div id="edit_zone"></div>
+	<div id="delete_zone"></div>
+</div>
 
-<%= link_to 'New Template', new_template_path %>
+
+
+
+
+
+
+
+
+<div id="controls_content">
+<button class="action_button">Action!</button>
+<%= link_to 'New Template', new_template_path, {:class => "action_button"} %>
 <%= link_to 'Batch Template Creation', batch_template_path %>
+</div>
